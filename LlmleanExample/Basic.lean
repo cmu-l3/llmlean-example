@@ -22,30 +22,3 @@ theorem my_object_sum_nonneg (o1 o2: my_object Ω) : o1.f + o2.f ≥ 0 := by
 
 theorem test_thm (m n : Nat) (h : m.Coprime n) : m.gcd n = 1 := by
   sorry
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-example {a b : ℚ} (h1 : a - b = 4) (h2 : a * b = 1) :
-(a + b) ^ 2 = 20 :=
-  by nlinarith
